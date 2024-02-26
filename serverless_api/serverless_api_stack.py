@@ -9,9 +9,6 @@ from aws_cdk import (
 )
 from constructs import Construct
 
-local_code_path = "./lambda"
-
-
 class ServerlessApiStack(Stack):
 
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
