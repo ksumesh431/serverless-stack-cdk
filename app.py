@@ -5,8 +5,6 @@ import aws_cdk as cdk
 
 from serverless_api.serverless_api_stack import ServerlessApiStack
 from serverless_api.test_s3_stack import testS3Stack
-from pipeline_stack.pipeline_stack import PipelineStack
-from pipeline_stack.test_stack import CdkCodePipelineStack
 from pipeline_stack.pipeline_from_scratch import PipelineStackFromScratch
 
 app = cdk.App()
